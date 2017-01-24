@@ -8,3 +8,7 @@ text_file=open("texti.txt", "a")
 text_file.write("\n" + "Eru ekki allir i studi eda???")
 text_file.write("\n" + "Eru ekki allir i studi eda???")
 text_file.write("\n" + "Eru ekki allir i studi eda???")
+
+text_file=open("texti.txt", "r")
+print(text_file.read())
+text_file.close()
